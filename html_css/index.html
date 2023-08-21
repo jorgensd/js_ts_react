@@ -1,0 +1,61 @@
+<!doctype html>
+<!-- Doctype declaration -->
+<html lang="en">
+  <head>
+    <!-- Give browsers and search engines information regarding our page -->
+    <title>My first web page</title>
+    <!-- Choose supported characters -->
+    <meta charset="UTF-8" />
+    <!-- Initial width and zoom-factor of your page -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Not used alot any longer -->
+    <meta name="keywords" content="HTML, CSS" />
+
+    <meta name="description" content="Information shown on search engine" />
+    <!-- CSS Styling -->
+    <style>
+      img {
+        width: 100px;
+        border-radius: 50px; /* border-radius=width/2 ==> round image  */
+        float: left;
+        margin-right: 50px;
+      }
+      /* p {font-weight: bold;} */ /* Apply to all p elements*/
+      .username /* Only format anything with the username classifier */ {
+        font-weight: bold;
+      }
+      em {
+        color: red;
+        font-style: normal;
+        font-style: italic;
+      }
+      strong {
+        color: blue;
+        font-style: oblique;
+      }
+      h1 {
+        color: red;
+      }
+      h2
+      {
+        color: green;
+
+      }
+    </style>
+  </head>
+  <body>
+    <img src="./images/fenics.png" alt="Image was not found!" />
+    <!-- Paragraph element -->
+    <p class="username">@jorgensd</p>
+    <p>I <em> FEniCS</em> as it <strong>solves</strong> everything</p>
+    <p>Helllooo I am here</p>
+    <!-- Each webpage should only have a single H1 element to avoid search engine confusion-->
+    <h1>Main header</h1>
+    <p>Hello</p>
+    <h2>CSS</h2>
+    <!-- HTML entities -->
+    <p>Yelp &lt; Symbols &gt; &amp; Non-breaking&nbsp;space</p>
+
+    <a href="data/about.html">Page about me</a>
+  </body>
+</html>
