@@ -71,3 +71,41 @@ The browser reads the response/html-document and creates a DOM.
 For each extra resource (such as colors, fonts etc) the browser sends more http requests to other pages to get the required data.
 
 127.0.0.1 is always the local component
+
+# React
+
+JavaScript library developed at Facebook to generate web-pages
+
+React generate and update DOM elements
+
+Creating a react app with `vite` using node package manager (npm).
+
+```bash
+npm create vite@x.y.z
+```
+
+Run web-server
+
+```bash
+npm run dev
+```
+
+## Structure
+
+- The folder `node_modules` should never be touched, contains third party dependencies
+- In `assets`is where we put public assets, like images, videos and so on.
+- `src` is where we place our source code for the application.
+- `index.html` is the entry point of the webpage
+- `tsconfig.json` is the settings for converting typescript to JavaScript
+- `vite.config.ts` is config for `vite`.
+
+## React components
+
+Using `ts` or `tsx` extension. `tsx` is used for React components (most commonly)
+
+React takes the component tree and creates a virtual DOM representation that compares with the
+previous state of the DOM. This is done by `React-DOM`.
+
+# Bootstrap
+
+CSS library (can be installed with npm)
